@@ -1,0 +1,383 @@
+
+.Navbar{
+    background-color: #191923;
+}
+
+.header{
+    background-color: #191923;
+}
+
+.Clients{
+    background-color: #191923;
+}
+
+.Contact{
+    background-color: #191923;
+}
+
+
+body{
+    background-color:#eee;
+}
+
+.card{
+    
+    border:none;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:blue;
+}
+
+.li{
+    text-decoration: none;
+    background: #01be96;
+    margin-left: 10px;
+    padding: 1px 10px;
+    border-radius: 8px;
+}
+
+
+.li:hover{
+    background: #000;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: #fff;
+}
+
+
+.Button1{
+    background-Color:rgb(1, 190, 150);
+    padding:5px 22px;
+    border:none;
+    border-radius:5px;
+    color:white;
+    margin-top:15px;
+    text-decoration: none;
+    
+}
+
+
+.Button1:hover{
+    color:white;
+    background:#000;
+}
+
+
+.Button-Contact{
+    /* background-Color:rgb(1, 190, 150); */
+    padding:5px 22px;
+    border:2px solid #fff;
+    /* border-radius:5px; */
+    color:white;
+    margin-top:15px;
+    text-decoration: none;
+    
+}
+
+
+.Button-Contact:hover{
+    color:white;
+    background:rgb(1, 190, 150);
+    border: none;
+}
+
+.name{
+    background-image: linear-gradient(to right, rgb(1, 190, 150), rgb(190, 7, 129));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Secular One, sans-serif;
+}
+
+
+.social-icons{
+    font-size: 20px;
+    color: #01be96;
+    border: 1px solid #01be96;
+    padding: 7px 10px;
+    border-radius: 21px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+.social-icons:hover{
+
+    background: #01be96;
+    color: #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.social-icons-footer{
+    font-size: 15px;
+    color: #000000;
+    /* border: 1px solid #000000; */
+    padding: 5px 9px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+.social-icons-footer:hover{
+
+    background: #01be96;
+    color: #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.talk{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.talk:hover{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.talk-button{
+    margin-top:35px;
+    padding:7px 22px;
+    background: #01be96;
+    border:none;
+    border-radius:7px
+}
+
+.talk-button:hover{
+    background-color: #000;
+
+}
+
+.button-submit{
+    margin-top: 12px;
+    background: #01be96;
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.services-section{
+    background: #01be96;
+    /* width: 400px; */
+    height: 350px;
+}
+
+
+.service-box{
+    padding:10px 25px;
+    background-Color:#fff;
+    border:2px solid #01be96;
+    margin-left: 20px;
+
+    transition: background-color 0.3s;
+
+}
+
+.service-box h4{
+    color:#000;
+    margin-top:35px;
+    font-size:25px;
+    transition: color 0.3s;
+}
+
+.service-box p{
+  color:#000;
+  text-align:center;
+  margin-top:10px;
+  transition: color 0.3s;
+}
+
+
+  
+  .service-box:hover {
+    background-color: black;
+  }
+  
+  
+  
+  .service-box:hover h4,
+  .service-box:hover p {
+    color: white;
+  }
+  
+  /* .service-box:hover::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.5), transparent);
+    z-index: -1;
+    animation: gradientAnimation 0.3s linear forwards;
+  } */
+  
+  /* @keyframes gradientAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+
+  
+
+  .text-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1c27;
+    
+  }
+
+
+
+  
+  .testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .testimonial-column{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    display: flex;
+    padding: 25px;
+    background: #fff3f3;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+  .testimonial-column img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+  }
+  .testimonial-column:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0 , 0.2);
+    
+  }
+  .testimonial-column h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size:15px;
+  }
+  .testimonial-column p{
+    padding: 0;
+    font-size:20px;
+  }
+  .testimonial-column .fa{
+    color: #f44336;
+  }
+  .fa-times{
+    position: absolute;
+    left: 0;
+    margin-bottom: 30px;
+  }
+  
+
+
+  /* ------Facilities Section---- */
+.facilities{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  .facilities-column{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .facilities-column img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-height: 262px;
+  }  
+  .facilities-column h3{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .facilities-column p{
+    padding: 0px;
+  }
+
+
+
+  /* ------Call to Action Section---- */
+.cta{
+    margin: 10px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0 , 0 , 0, 0.7) , rgba(0 , 0 , 0, 0.7)), url(./banner2.jpg);
+    /* background-image: linear-gradient(rgba(0 , 0 , 0, 0.7) , rgba(0 , 0 , 0, 0.7)), url(images/banner2.jpg); */
+    background-size: cover;
+    background-position: center;
+    padding:10px 0px;
+    text-align: center;
+    border-radius: 10px;
+  
+  
+  }
+  .cta h1{
+    color: white;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .cta p{
+    color:rgb(155, 152, 143);
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+  }
+
+ 
+
+  @media(max-width: 850px){
+    .cta h1{
+        font-size: 24px;
+    }
+  }
+  
+  

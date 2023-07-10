@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 export const Footer = () => {
   return (
     <div>
-        <div className="row" style={{justifyContent:"space-between"}}>
+        <div className="row" style={{justifyContent:"space-between",marginTop:"25px"}}>
             <div className="col-md-4">Copyright © 2023 Arsalan Portflio. All rights reserved.</div>
             <div className="col-md-4">
                 <p>

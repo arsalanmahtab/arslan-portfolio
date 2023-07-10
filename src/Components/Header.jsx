@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useRef } from 'react';
 import photo from './photo.png'
 import Transparent from './transparent.png'
 
@@ -46,6 +46,8 @@ export const Header = () => {
 
 
 
+
+
   return (
     <div className='Header-main'>
 
@@ -62,7 +64,7 @@ export const Header = () => {
                  </h2>
 
               
-                <h1 className='bigFont' style={{ color: "#01BE96",fontSize:"50px",fontWeight:"bold"}}>
+                <h1 className='bigFont' style={{ color: "#01BE96",fontSize:"45px",fontWeight:"bold"}}>
             <Typewriter
                 options={{
                 strings: ['Arsalan Mahtab','Frontend Developer.', 'Shopify Developer','Wordpress Developer'],
@@ -118,6 +120,9 @@ export const Header = () => {
         <img src={worpdressimg} alt="Wordpress" style={{width:"120px"}} />
         <img src={shopifyimg} alt="Shopify" style={{width:"60px"}} />
       </div>
+
+
+        
 
       <div>
       {/* <OwlCarousel className='owl-theme' {...options} loop margin={10} >
@@ -191,7 +196,36 @@ export const Header = () => {
       </div>
 
 
-      <div className="clients-section" style={{marginTop:"10px"}}>
+
+      <div>
+      <div className='container' id='services' style={{marginTop:"30px",marginBottom:"30px"}}>
+
+                  <h1 style={{fontSize:"30px",fontWeight:"bold",fontFamily:"revert",margin:"10px 0 10px 0px"}}>SERVICES</h1>
+                <div className='row' style={{justifyContent:"center"}}>
+                    <div className='col-md-3 service-box'>
+                    <i class="fa-solid fa-code fa-xl" style={{color: "#01be96",marginTop:"30px"}}></i>
+                    <h4 >Frontend Developer</h4>
+                    <p > I am a frontend developer with one year of experience, I have developed a strong foundation in HTML, CSS, JavaScript, and React JS. 
+                         
+                       </p>
+                    
+                    </div>
+                    <div className='col-md-3 service-box' >
+                    <i class="fa-brands fa-shopify fa-xl" style={{color: "#01be96",marginTop:"30px"}}></i>
+                        <h4 >Shopify Developer</h4>
+                        <p >I am a Shopify developer with one year of experience, I have a strong background in developing custom Shopify themes and applications using HTML, CSS, JavaScript, and Liquid. 
+                           </p>
+                    </div>
+                    <div className='col-md-3 service-box'  >
+                    <i class="fa-brands fa-wordpress fa-xl" style={{color: "#01be96",marginTop:"30px"}}></i>
+                        <h4 style={{fontSize:"22px"}} >Wordpress Developer </h4>
+                        <p >I am a WordPress developer with one year of experience, I am proficient in developing custom WordPress themes and plugins using HTML, CSS, JavaScript, and PHP.
+                              </p>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div className="clients-section" style={{marginTop:"30px"}}>
           <h1 style={{ fontSize: "30px", fontWeight: "bold" }}>What my Clients Say?</h1>
           {/* <div className="row" style={{marginTop:"20px"}}>
             <div className="col-md-3">

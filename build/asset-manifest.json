@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ad6156de.css",
+    "main.js": "/static/js/main.11b36e8b.js",
+    "static/js/787.ea49a0bc.chunk.js": "/static/js/787.ea49a0bc.chunk.js",
+    "static/media/employee.jpg": "/static/media/employee.9c41f0a6af7b640a13d9.jpg",
+    "static/media/blue-image.png": "/static/media/blue-image.36a985e282ae70a468b8.png",
+    "static/media/todo.jpg": "/static/media/todo.d490befb6831278109a4.jpg",
+    "static/media/bookStore.jpg": "/static/media/bookStore.e1565d8c866001b01c5c.jpg",
+    "static/media/photo.png": "/static/media/photo.8f2ddebba9ee2f7a1dfe.png",
+    "static/media/blood.jpg": "/static/media/blood.192da4126b4804ac72d8.jpg",
+    "static/media/weather.png": "/static/media/weather.5b7dbc4c7785db0a3f07.png",
+    "static/media/banner2.jpg": "/static/media/banner2.db688b4a587ef606817b.jpg",
+    "static/media/user2.jpg": "/static/media/user2.0d20d0f69481da48ef11.jpg",
+    "static/media/transparent.png": "/static/media/transparent.ae7d520dcf9d5115bd9a.png",
+    "static/media/user1.jpg": "/static/media/user1.e0fc14f92d25b077b94c.jpg",
+    "static/media/navLogo1.png": "/static/media/navLogo1.a76679b1e05b173e693a.png",
+    "static/media/react.png": "/static/media/react.cb8f5ac009d015eff230.png",
+    "static/media/Resume.pdf": "/static/media/Resume.7403e68cf8e67b31a18d.pdf",
+    "static/media/shazam.jpg": "/static/media/shazam.1f38cd8d1dfc7663e122.jpg",
+    "static/media/shopify.png": "/static/media/shopify.e1b6c7ba1bf220abf4b0.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.ad6156de.css.map": "/static/css/main.ad6156de.css.map",
+    "main.11b36e8b.js.map": "/static/js/main.11b36e8b.js.map",
+    "787.ea49a0bc.chunk.js.map": "/static/js/787.ea49a0bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad6156de.css",
+    "static/js/main.11b36e8b.js"
+  ]
+}
